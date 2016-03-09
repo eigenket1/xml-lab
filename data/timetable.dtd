@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT timetable (timeslot+, b_day+, c_course+)>
+
+    <!ELEMENT timeslot (room,course, instructor)>
+        <!ATTLIST timeslot
+            time (830|930|1030|1130|1230|1330|1430|1530|1630) #REQUIRED
+            >
+        <!ELEMENT room (#PCDATA)>
+        <!ATTLIST timeslot
+            day (sunday|monday|tuesday|wednesday|thursday|friday|saturday) #REQUIRED
+            >
+        <!ELEMENT course (#PCDATA)>
+        <!ATTLIST timeslot
+            type (lab|lecture) #REQUIRED
+            >
+        <!ELEMENT instructor (#PCDATA)>
+
+    <!ELEMENT b_day (room, course, instructor)>
+        <!ATTLIST b_day
+            day (sunday|monday|tuesday|wednesday|thursday|friday|saturday) #REQUIRED
+            >
+        <!ATTLIST b_day
+            time (830|930|1030|1130|1230|1330|1430|1530|1630) #REQUIRED
+            >
+        <!ATTLIST b_day
+            type (lab|lecture) #REQUIRED
+            >
+
+    <!ELEMENT c_course (room, instructor)>
+        <!ATTLIST c_course
+            day (sunday|monday|tuesday|wednesday|thursday|friday|saturday) #REQUIRED
+            >
+        <!ATTLIST c_course
+            time (830|930|1030|1130|1230|1330|1430|1530|1630) #REQUIRED
+            >
+        <!ATTLIST c_course
+            type (lab|lecture) #REQUIRED
+            >
+

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<!DOCTYPE timetable SYSTEM 'timetable.dtd'>
+
+<timetable>
+    <timeslot day="monday" time="1130" type="lec">
+        <room>SW1-1205</room>
+        <course>COMP4735 </course>
+        <instructor>Mirela Gutica</instructor>
+    </timeslot>
+    <timeslot day="tuesday" time="1130" type="lec">
+        <room>SW5-1850</room>
+        <course>COMP4560</course>
+        <instructor>Brenda Fine</instructor>
+    </timeslot>
+	    <timeslot day="wednesday" time="1130" type="lec">
+        <room>SE12-323</room>
+        <course>COMP4985</course>
+        <instructor>Aman Abdulla</instructor>
+    </timeslot>
+    <timeslot day="thursday" time="1130" type="lec">
+        <room>SW3-1710</room>
+        <course>COMP4735 </course>
+        <instructor>Mirela Gutica</instructor>
+    </timeslot>
+	
+	<b_day day="monday" time="1130" type="lec">
+        <room>SW1-1205</room>
+        <course>COMP4735 </course>
+        <instructor>Mirela Gutica</instructor>
+    </b_day>
+    <b_day day="tuesday" time="1130" type="lec">
+        <room>SW5-1850</room>
+        <course>COMP4560</course>
+        <instructor>Brenda Fine</instructor>
+    </b_day>
+	<b_day day="wednesday" time="1130" type="lec">
+        <room>SE12-323</room>
+        <course>COMP4985</course>
+        <instructor>Aman Abdulla</instructor>
+    </b_day>
+    <b_day day="thursday" time="1130" type="lec">
+        <room>SW3-1710</room>
+        <course>COMP4735 </course>
+        <instructor>Mirela Gutica</instructor>
+    </b_day>
+	
+	<c_course day="monday" time="1130" type="lec">
+        <room>SW1-1205</room>
+        <instructor>Mirela Gutica</instructor>
+    </c_course>
+    <c_course day="tuesday" time="1130" type="lec">
+        <room>SW5-1850</room>
+        <course>COMP4560</course>
+        <instructor>Brenda Fine</instructor>
+    </c_course>
+	<c_course day="wednesday" time="1130" type="lec">
+        <room>SE12-323</room>
+        <instructor>Aman Abdulla</instructor>
+    </c_course>
+    <c_course day="thursday" time="1130" type="lec">
+        <room>SW3-1710</room>
+        <instructor>Mirela Gutica</instructor>
+    </c_course>
+	
+</timetable>
